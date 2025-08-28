@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.42/build/spline-viewer.js" async></script>
+    <title>Meet the Mascot!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gallery.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/3cf10c2d2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="stars"></div>
+    <!--<div class="meteor"></div>
+    <div class="meteor delay"></div> -->
+    <div class = "moving-buttonContainer">
+    <button onclick="toggleGifs()" class = "moving-button">
+        <img id="gif1" src="Images/OrbiWave.gif" alt="Animated GIF 1">
+        <img id="gif2" src="Images/SnappingFingers Orbi.gif" style="display: none;">
+        <span class="tooltiptext">Music: <strong>“Ready, Set, Drift”</strong> — Michael Grubb</span>
+        <audio id="audio" src="Audio/ready-set-drift-michael-grubb-main-version-24555-02-59.mp3" type="audio/mpeg" loop></audio>
+        <p>Click me</p>
+    </button>
+    </div>
+    <nav>
+        <a href="https://www.plutohacks.com/" target="_blank"><img src='Images/PlutoHacks-Logo.png' alt="Plutohacks 2025"></a>
+    </nav>
+    <section class ="HeroSection">
+        <div class="story-content">
+            <h1>Say hello to <strong class = "rainbow-text">Orbi</strong>!</h1>
+            <p>
+                Meet Orbi, PlutoHacks’ cosmic mascot and your orbiting hype crew for Broward College’s most out-of-this-world hackathon. Always circling his quirky pixelated planet, Orbi's joined by Byte his AI-powered backpack packed with tools, snacks, and last-minute fixes.<br><br>
+
+                The stars around him? They're not just pretty they're interactive sparks of creativity waiting to be moved, shaped, and launched into innovation.<br><br>
+                
+                So grab a star, take a Byte, and let the hacking adventure begin.<br><br>            
+            </p>
+        </div>
+        <div class="viewer-wrapper">
+        <spline-viewer hint loading-anim-type="spinner-big-light" url="https://prod.spline.design/xqHicjXmuYZ5DRl2/scene.splinecode"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAATCAYAAADxlA/3AAAJ+ElEQVR4AQCBAH7/AGme0Q5pntEIaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RF2me0TBpntFHaZ7RV2me0WBpntFgaZ7RV2me0UdpntEwaZ7RF2me0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QlpntEOAIEAfv8AaZ7RDGme0QZpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QFpntEaaZ7RNGme0UtpntFcaZ7RZWme0WVpntFcaZ7RS2me0TRpntEaaZ7RAWme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RB2me0Q0AgQB+/wBpntEIaZ7RA2me0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RB2me0SFpntE8aZ7RU2me0WVpntFuaZ7Rbmme0WVpntFUaZ7RPGme0SJpntEIaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEGaZ7RCwCBAH7/AGme0QVpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntERaZ7RLWme0UhpntFhaZ7Rc2me0X1pntF9aZ7Rc2me0WFpntFIaZ7RLWme0RFpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QVpntEKAIEAfv8AaZ7RBGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RBWme0R9pntE8aZ7RWWme0XNpntGGaZ7RkGme0Y9pntGFaZ7Rcmme0VlpntE8aZ7RH2me0QVpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RBWme0QoAgQB+/wBpntEGaZ7RAmme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEUaZ7RMWme0U9pntFuaZ7RiGme0ZtpntGlaZ7RpWme0ZppntGGaZ7RbGme0U1pntEuaZ7RE2me0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEHaZ7RDACBAH7/AGme0QtpntEIaZ7RAWme0QBpntEAaZ7RAGme0QBpntEAaZ7RDWme0SZpntFEaZ7RZGme0YNpntGeaZ7Rsmme0bxpntG7aZ7RsGme0ZtpntF/aZ7RX2me0T9pntEhaZ7RCWme0QBpntEAaZ7RAGme0QBpntEAaZ7RBGme0QtpntEPAIEAfv8AaZ7RE2me0RBpntEJaZ7RAmme0QBpntEAaZ7RAGme0QppntEdaZ7RN2me0VZpntF3aZ7Rl2me0bJpntHGaZ7R0Gme0c9pntHDaZ7RrWme0ZBpntFvaZ7RTWme0S5pntEUaZ7RAmme0QBpntEAaZ7RAGme0QBpntEIaZ7RD2me0RQAgQB+/wBpntEbaZ7RGGme0RJpntELaZ7RBmme0QVpntEKaZ7RFmme0SppntFFaZ7RZGme0YVpntGmaZ7RwWme0dVpntHeaZ7R3Wme0dBpntG5aZ7Rm2me0XlpntFWaZ7RNmme0RxpntEJaZ7RAGme0QBpntEAaZ7RBGme0QxpntETaZ7RFwCBAH7/AGme0SFpntEeaZ7RGGme0RJpntENaZ7RDGme0RFpntEeaZ7RMWme0UxpntFraZ7RjWme0a1pntHIaZ7R22me0eRpntHiaZ7R1Gme0b1pntGfaZ7RfGme0VlpntE5aZ7RHmme0QtpntEAaZ7RAGme0QBpntEFaZ7RDWme0RRpntEYAIEAfv8AaZ7RJGme0SBpntEaaZ7RFGme0Q9pntEOaZ7RE2me0R5pntEyaZ7RTGme0WtpntGLaZ7Rqmme0cVpntHYaZ7R4Gme0d1pntHQaZ7RuGme0ZppntF3aZ7RVGme0TRpntEaaZ7RB2me0QBpntEAaZ7RAGme0QNpntEMaZ7RE2me0RcAgQB+/wBpntEiaZ7RH2me0RlpntESaZ7RDGme0QppntEOaZ7RGWme0StpntFEaZ7RYWme0YFpntGfaZ7RuWme0ctpntHTaZ7R0Gme0cJpntGqaZ7RjGme0WppntFIaZ7RKWme0Q9pntEAaZ7RAGme0QBpntEAaZ7RAGme0QhpntEPaZ7REwCBAH7/AGme0R5pntEaaZ7RE2me0QtpntEFaZ7RAWme0QRpntENaZ7RHmme0TVpntFSaZ7RcGme0Y1pntGlaZ7Rtmme0b5pntG6aZ7RrWme0ZZpntF4aZ7RV2me0TZpntEZaZ7RAWme0QBpntEAaZ7RAGme0QBpntEAaZ7RAmme0QtpntEPAIEAfv8AaZ7RFmme0RJpntELaZ7RAmme0QBpntEAaZ7RAGme0QBpntENaZ7RI2me0T1pntFaaZ7Rdmme0Y1pntGdaZ7RpGme0aFpntGTaZ7RfWme0WFpntFBaZ7RImme0QZpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RB2me0QwAgQB+/wBpntEPaZ7RCmme0QJpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEPaZ7RKGme0UNpntFdaZ7Rc2me0YNpntGJaZ7Rhmme0XlpntFkaZ7RSWme0StpntEOaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEEaZ7RCgCBAH7/AGme0QhpntEDaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEUaZ7RLWme0UZpntFbaZ7Ramme0XFpntFuaZ7RYWme0U1pntEzaZ7RF2me0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QRpntEKAIEAfv8AaZ7RAmme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QNpntEbaZ7RM2me0UhpntFWaZ7RXGme0VlpntFOaZ7ROmme0SFpntEHaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RBWme0QsAgQB+/wBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0Q9pntEmaZ7ROmme0UhpntFOaZ7RS2me0UBpntEtaZ7RFWme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEGaZ7RDQGBAH7/AGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RCGme0R9pntEzaZ7RQWme0UdpntFEaZ7ROWme0SdpntEPaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QBpntEAaZ7RAGme0QdpntEOfEvHjal9IEgAAAAASUVORK5CYII=" alt="Spline preview" style="width: 100%; height: 100%;"/></spline-viewer>
+        </div>   
+    </section>
+    <h2 class="section-heading">✨Orbi Gallery✨</h2>
+    <div class ="GridGalleryContainer">
+        <div class ="GridGallery">
+            <div class ="GalleryItem"><img src='Images/Orbi Mega Pin.png' alt="Taco"></div>
+            <div class ="GalleryItem"><img src='Images/Mousepad2025.png' alt="TunaSharkCan"></div>
+            <div class ="GalleryItem"><img src='Images/OrbiLayingonPlanet.png' alt="Witch"></div>
+            <div class ="GalleryItem"><img src='Images/plutohackskeychain.png' alt="Shark"></div>
+            <div class ="GalleryItem"><img src='Images/image1-8.png' alt="Divers"></div>
+            <div class ="GalleryItem"><img src='Images/OrbDesignsManyStickerPinsWebpage.png' alt="OrbiDesigns"></div>
+            <div class ="GalleryItem"><img src='Images/Trophy Concept Design.png' alt="OrbiTrophieConcept"></div>
+        </div>
+        <div class ="GalleryLightBox">
+            <span>&times;</span>
+            <img src="Images/AnimeToast.jpg" alt="">
+        </div>
+    </div>
+    <footer>
+        <button id="backToTop" title="Back to top">&#8682;</button>
+        <div class="footer-bar"></div>
+        <p>             
+            Broward College does not discriminate on the basis of race, color, sex, gender, national origin, religion, age, disability, marital status, sexual orientation, genetic information or other legally protected classification in its programs and activities.​​ View our <a href="https://www.broward.edu/legal/policies-and-procedures/_docs/policy/6hx2-3.34.pdf?_gl=1*fwljsd*_ga*MTc5NzMxMzgzNi4xNzU0Njc3MDkz*_ga_HL3LCVVM47*czE3NTYzMzIzMTUkbzMkZzEkdDE3NTYzMzU0NjQkajU2JGwwJGgw">non-discrimination policies</a> and <a href="https://www.broward.edu/students/rights-and-responsibilities/title-ix-sexual-misconduct.html?_gl=1*fwljsd*_ga*MTc5NzMxMzgzNi4xNzU0Njc3MDkz*_ga_HL3LCVVM47*czE3NTYzMzIzMTUkbzMkZzEkdDE3NTYzMzU0NjQkajU2JGwwJGgw">Title IX policies</a>.​​<br><br>
+            The opinions expressed in the BC Sites Network are the author’s own and do not reflect the view of Broward College. BC makes no representation or warranty of any kind, express or implied, regarding accuracy, adequacy, validity, reliability, or availability of the information within this site.
+        </p>
+    </footer>
+</body>
+</html>
