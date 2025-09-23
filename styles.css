@@ -106,6 +106,7 @@ nav a span{
   flex: 2 1 500px;  /* grow: 2, shrink: 1, base width: 500px */
   max-width: 700px;
 }
+
 .GrabContent{
   display:flex;
   align-items: center;
