@@ -1,0 +1,21 @@
+.orbi-bubble {
+  position: absolute;
+  bottom: 100%;       /* place it above the wrapper contents */
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  background: rgba(0, 0, 30, 0.85);
+  border: 1px solid cyan;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  color: cyan;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  box-shadow: 0 0 8px cyan;
+  z-index: 10;
+}
+.orbi-bubble.show {
+  opacity: 1;
+}
